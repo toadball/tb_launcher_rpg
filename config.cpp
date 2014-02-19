@@ -101,6 +101,7 @@ class CfgMagazines {
 class CfgAmmo {
 	class R_PG32V_F;
 	class tb_R_RPG18_AT : R_PG32V_F {
+		model = "tb_launcher_rpg\data\rpg7\PG7_Rocket";
 		fusedistance = 10;
 		hit = 375;
 		indirecthit = 20;
